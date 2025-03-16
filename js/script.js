@@ -427,7 +427,7 @@ const familyData = [
 	document.addEventListener("DOMContentLoaded", function () {
         const galleryContainer = document.getElementById("imageGallery");
         const imageFolder = "./img/book/";  // Folder containing images
-        const totalImages = 29; // Set the total number of images
+        const totalImages = 28; // Set the total number of images
 
         for (let i = 1; i <= totalImages; i++) {
             let imgNumber = String(i).padStart(4, '0'); // Ensures filenames match the format (0001, 0002, etc.)
